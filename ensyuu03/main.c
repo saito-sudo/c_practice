@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main (void)
+
+#define PI 3.1415926535
 {
-    double rad;
+    double rad = 0.0;
 
     printf("半径を入力してください:");
     scanf("%lf", &rad);
