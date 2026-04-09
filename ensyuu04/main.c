@@ -2,10 +2,10 @@
 
 int main(void)
 {
-    int num;          // 入力された数を入れる
+    int num=0;          // 入力された数を入れる
     int sum = 0;      // 合計をためる（最初は0）
     int count = 0;    // 何回入力されたか数える（最初は0）
-    double average;   // 平均（小数点まで出したいのでdouble型）
+    double average=0;   // 平均（小数点まで出したいのでdouble型）
 
     printf("数値を入力してください:\n");
 
