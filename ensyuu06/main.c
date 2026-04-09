@@ -3,7 +3,7 @@ int main(void)
 {
     int a=1;
     int b=1;
-    int c;
+    int c=0;
 
     printf("1～1000までのフィボナッチ数列を表示します。\n");
     printf("%d,%d",a,b);
